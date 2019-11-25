@@ -1,1 +1,2 @@
 Semangat Insyaallah Sukses
+Aamiin..
