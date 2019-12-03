@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="search-todo">
+        <h1>Todos</h1>
+        <div class="form-group search">
+            <input type="text" placeholder="Filter Todo" id="search-text">
+            <label for="hide-completed">
+                <input type="checkbox" id="hide-completed"> Hide Completed
+            </label>
+        </div>
+    </section>
+    <section class="todo">
+        <form id="new-todo">
+            <div class="form-group">
+                <input class="form-control" type="text" placeholder="Masukan sesuatu" name="text">
+            </div>  
+            <button class="btn btn-success">Add Todo</button>
+        </form>
+        <div id="todos"></div>
+    </section>
+    <script src="todo-function.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

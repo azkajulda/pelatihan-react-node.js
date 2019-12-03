@@ -1,0 +1,15 @@
+.search-todo {
+    text-align: center;
+}
+
+.todo {
+    margin: 100px 250px;
+}
+
+#todos {
+    margin: 20px auto;
+}
+
+.search {
+    margin: 20px auto;
+}
