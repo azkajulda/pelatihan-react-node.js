@@ -45,6 +45,5 @@ const generateTodo = function(todo) {
 const summaryTodo = function(incompletedTodos) {
     const summary = document.createElement('h2')
     summary.textContent = `Sisa todo ${incompletedTodos.length} lagi`
-    document.createElement('br')
     return summary
 }
